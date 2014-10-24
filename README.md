@@ -97,7 +97,7 @@ engine.render(person)
 ## Use the specified expression options to render list items
 
 ```ruby
-template = 'This is a list of values $values; null="-1", seperator=", "$'
+template = 'This is a list of values $values; null="-1", separator=", "$'
 engine = Slippers::Engine.new(template)
 engine.render(:values => [1,2,3,nil])
 ```
